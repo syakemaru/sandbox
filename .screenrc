@@ -1,0 +1,19 @@
+source defaults
+
+escape ^t^t
+setenv LANG ja_JP.UTF-8
+defscrollback 10000
+
+hardstatus alwayslastline "%Lw"
+startup_message off
+autodetach on
+vbell off
+altscreen on
+sorendition "= wk"
+
+defutf8 on
+defkanji utf-8
+encoding utf-8 utf-8
+defencoding utf-8
+
+termcapinfo xterm 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
